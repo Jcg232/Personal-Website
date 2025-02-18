@@ -35,8 +35,11 @@ body {
   align-items: center;
 }
 .contact {
-  color: white;
+  background-color: #11cdd4;
   text-decoration: none;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
 }
 .skills > h3 {
   font-size: 30px;
