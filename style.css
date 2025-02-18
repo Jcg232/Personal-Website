@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+}
+.heroe {
+  background-color: rgb(230, 252, 249);
+}
+.profile-class {
+  border-radius: 50%;
+  height: 250px;
+}
+.top-cloud {
+  position: absolute;
+  right: 200px;
+}
+.bottom-cloud {
+  position: absolute;
+  top: 350px;
+  left: 250px;
+}
+.space {
+  border: dotted;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: left;
+  gap: 1rem;
+}
+.hardworking {
+  height: 200px;
+  align-items: center;
+}
+.contact {
+  color: white;
+  text-decoration: none;
+}
+.skills > h3 {
+  font-size: 30px;
+}
+.skills > p {
+  font-size: 20px;
+}
